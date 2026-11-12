@@ -1,0 +1,49 @@
+{
+  "iterations_executed": 50000,
+  "elapsed_seconds": 0.48,
+  "throughput_execs_per_sec": 104122.3,
+  "unique_divergences_discovered": 30759,
+  "divergence_breakdown_by_type": {
+    "ACCEPT_REJECT_DESYNC": 30759
+  },
+  "divergence_breakdown_by_severity": {
+    "CRITICAL": 30759
+  },
+  "sample_divergences": [
+    {
+      "id": "3a5168dd26714f0e",
+      "type": "ACCEPT_REJECT_DESYNC",
+      "severity": "CRITICAL",
+      "description": "Desynchronization: Parser-Beta accepted payload as valid, whereas Parser-Alpha rejected with error: 'Reserved flag bits non-zero: z=7'",
+      "hex_preview": "abcd01700001000000000000076578616d706c6503636f6d0000010001"
+    },
+    {
+      "id": "244503605b450539",
+      "type": "ACCEPT_REJECT_DESYNC",
+      "severity": "CRITICAL",
+      "description": "Desynchronization: Parser-Beta accepted payload as valid, whereas Parser-Alpha rejected with error: 'Reserved flag bits non-zero: z=7'",
+      "hex_preview": "a9cd01700001000000000000076578616d70d86503636f6d00000100010d65d6..."
+    },
+    {
+      "id": "c47e4c1b81932c60",
+      "type": "ACCEPT_REJECT_DESYNC",
+      "severity": "CRITICAL",
+      "description": "Desynchronization: Parser-Beta accepted payload as valid, whereas Parser-Alpha rejected with error: 'Strict violation: Forward or self compression pointer (27 >= 12)'",
+      "hex_preview": "abcd01000001000000000000c01b78616d706c6503636f6d0000010001"
+    },
+    {
+      "id": "924aefa917ccc7ba",
+      "type": "ACCEPT_REJECT_DESYNC",
+      "severity": "CRITICAL",
+      "description": "Desynchronization: Parser-Beta accepted payload as valid, whereas Parser-Alpha rejected with error: 'Strict violation: Forward or self compression pointer (27 >= 12)'",
+      "hex_preview": "abcd01000001000000000000c01b78616d966c6503636f6d0000010001"
+    },
+    {
+      "id": "2aed870bae9ca978",
+      "type": "ACCEPT_REJECT_DESYNC",
+      "severity": "CRITICAL",
+      "description": "Desynchronization: Parser-Beta accepted payload as valid, whereas Parser-Alpha rejected with error: 'Reserved flag bits non-zero: z=7'",
+      "hex_preview": "abcd01700001000000000000c01e33616d706c6503636f6d0000010001177494"
+    }
+  ]
+}
